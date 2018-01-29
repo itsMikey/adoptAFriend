@@ -1,0 +1,10 @@
+{
+  "extends": "tslint:latest",
+  "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
+}

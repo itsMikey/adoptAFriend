@@ -1,0 +1,13 @@
+service: adoptAFriend
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  AdoptAFriend:
+    description: Alexa Intent Handler for Adopt a Friend skill
+    handler: handlers/adopt-friend-handler.handle_intents
+    timeout: 30
+    events:
+      - alexaSkill

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "strict": true,
+    "module": "commonjs",
+    "lib": ["es6", "esnext.asynciterable"],
+    "moduleResolution": "node",
+    "removeComments": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true,
+    "useWebpackText": true,
+    "useBabel": true
+  },
+  "compileOnSave": false,
+  "buildOnSave": false
+}
